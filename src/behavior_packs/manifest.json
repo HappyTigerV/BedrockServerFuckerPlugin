@@ -1,0 +1,43 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Server Fucker Plugin",
+		"description": "A plugin to F_U_C_K server. Works on 1.19.5x. Source: HappyTigerV/BedrockServerFuckerPlugin (GitHub)",
+		"uuid": "b4fe4a50-f579-4b06-bf67-4e7d782477f2",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			19,
+			50
+		]
+	},
+	"modules": [
+		{
+			"description": "Script resources",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "dbc7f7aa-e171-4852-bd14-4733d5bf804d",
+			"version": [
+				2,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	],
+	"capabilities": []
+}

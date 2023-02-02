@@ -1,0 +1,10 @@
+{
+	"type": "ts",
+	"res": true,
+	"name": "fuckserver",
+	"mc_preview": false,
+	"bds": false,
+	"bds_path": "~/bds/",
+	"output": "../build",
+	"mc_dir": "C:/Users/49203/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang"
+}
