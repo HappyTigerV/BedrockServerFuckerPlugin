@@ -10,7 +10,7 @@
 git clone https://github.com/HappyTigerV/BedrockServerFuckerPlugin
 cd BedrockServerFuckerPlugin
 ```
-### 安装[Serein](https://github/LoveCouple/Serein)脚手架和所需依赖项
+### 安装[Serein](https://github.com/LoveCouple/Serein)脚手架和所需依赖项
 ```
 npm i @pureeval/serein gulp gulp-cli -g
 cd src
