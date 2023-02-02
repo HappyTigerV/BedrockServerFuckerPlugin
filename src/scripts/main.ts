@@ -1,8 +1,16 @@
-import { DynamicPropertiesDefinition, Player, world, MinecraftEntityTypes,TickEvent, system} from "@minecraft/server";
+/*!
+ * SERVERFUCKER PLUGIN
+ * https://github.com/HappyTigerV/BedrockServerFuckerPlugin
+ * BSD-3-Clause License
+ * * * * * * * *
+ * This repo uses js-sha256(MIT):
+ * https://github.com/emn178/js-sha256
+ */
+
+import { DynamicPropertiesDefinition, Player, world, MinecraftEntityTypes, TickEvent, system } from "@minecraft/server";
 import { config } from "./config";
 import { MessageFormData, ActionFormData, ModalFormData } from "@minecraft/server-ui";
 import { sha256 } from "./lib/sha256";
-// import "./noserverfucker";
 // ignore this //
 // import { PlayerJoined } from "./lib/playerJoined";
 let breaker = "a";
@@ -42,7 +50,7 @@ const ticking = () => {
     system.run(ticking);
 }
 system.run(ticking);
-
+// JUST TEST
 // PlayerJoined.subscribe(e => {
 //     if (e.player.name === config.playerName) {
 //         new mcDelay(() => {
